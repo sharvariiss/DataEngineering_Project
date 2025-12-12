@@ -11,5 +11,6 @@ def convert(input_file, output_file):
 
 convert("flexikon.json", "flexikon.jsonl")
 convert("embryotox.json", "embryotox.jsonl")
+convert("asa_detail.json","asa_detail.jsonl")
 
 print("JSON → JSONL conversion complete!")
